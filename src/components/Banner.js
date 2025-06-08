@@ -48,7 +48,8 @@ export const Banner = () => {
   }
 
   const checkResume = () => {
-    window.open('https://drive.google.com/file/d/1RPwYUyGOB-EhbFi1Qxz6QId5M7VbCWls/view', '_blank');
+    // Resume Link Here
+    window.open('https://drive.google.com/file/d/1z_XRYnIghEDi-oo2eEFaj_jBGbB8Et3D/view?usp=drivesdk', '_blank');
   };
 
   return (
