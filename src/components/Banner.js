@@ -49,7 +49,7 @@ export const Banner = () => {
 
   const checkResume = () => {
     // Resume Link Here
-    window.open('https://drive.google.com/file/d/1z_XRYnIghEDi-oo2eEFaj_jBGbB8Et3D/view?usp=drivesdk', '_blank');
+    window.open('https://drive.google.com/file/d/1Syp3vE62TtuvwS1vlmA6isXMfxXAeOFp/view?usp=drivesdk', '_blank');
   };
 
   return (
@@ -62,7 +62,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Raj Nayan`} <br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='["Competitive Programmer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a pre-final year student, studying CSE at NIT Agartala. I enjoy tackling challenging problems and approaching them with a systematic and creative mindset. With technology constantly evolving, I am committed to continuous learning and self-improvement. I am highly adaptable and can quickly grasp new tools and technologies. Currently, I am expanding my skill set by learning to build web applications using React.</p>
+                  <p>I'm a final year student, studying CSE at NIT Agartala. I enjoy tackling challenging problems and approaching them with a systematic and creative mindset. With technology constantly evolving, I am committed to continuous learning and self-improvement. I am highly adaptable and can quickly grasp new tools and technologies. Currently, I am expanding my skill set by learning to build web applications using React.</p>
                   <button onClick={checkResume}>Check Resume <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
